@@ -1,11 +1,9 @@
 <template>
-  <h1>Hello App!</h1>
-  <p><strong>Current route path:</strong> {{ $route.fullPath }}</p>
-  <nav>
-    <RouterLink to="/">Go to Home</RouterLink>
-    <RouterLink to="/about">Go to About</RouterLink>
-  </nav>
-  <main>
-    <RouterView />
-  </main>
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
+      <router-link to="/exhibits"> Exhibits</router-link>
+    </nav>
+    <router-view />
+  </div>
 </template>
