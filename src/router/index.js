@@ -29,7 +29,7 @@ const routes = [
   {
     path: '/ballex',
     name: 'ballex',
-    component: BallExhibit
+    component: BallExhibit,
   },
 ]
 
