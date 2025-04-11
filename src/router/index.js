@@ -6,6 +6,7 @@ import ShowExhibits from '../views/ShowExhibits.vue'
 import BallExhibit from '../views/BallExhibit.vue'
 import RossExhibit from '../views/RossExhibit.vue'
 import ArtShow from '../views/ArtShow.vue'
+import Indigenous from '../views/Indigenous.vue'
 
 const routes = [
   {
@@ -36,13 +37,18 @@ const routes = [
   {
     path: '/bobross',
     name: 'bobross',
-    component: RossExhibit
+    component: RossExhibit,
   },
   {
     path: '/artshow',
     name: 'artshow',
-    component: ArtShow
-  }
+    component: ArtShow,
+  },
+  {
+    path: '/indigenous',
+    name: 'indigenous',
+    component: Indigenous,
+  },
 ]
 
 const router = createRouter({
