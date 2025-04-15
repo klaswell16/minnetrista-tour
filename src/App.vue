@@ -1,6 +1,9 @@
-<script>import Button from 'primevue/button';</script>
+<script>
+import Button from 'primevue/button';
+</script>
 <template>
   <div id="app">
+    <ButtonGroup>
     <nav>
       <Button asChild v-slot="Home">
       <router-link to="/" class="Home">Home</router-link></Button>
@@ -20,6 +23,7 @@
       <router-link to="/indigenous" class="Indigenous">Indigenous</router-link></Button>
 
     </nav>
+  </ButtonGroup>
     <router-view />
   </div>
 </template>

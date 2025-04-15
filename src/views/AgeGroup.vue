@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <header><h1>What Age Group Are You?</h1></header>
+    <header>What Age Group Are You?</header>
     <div class="page">8 and below</div>
   </div>
 </template>
