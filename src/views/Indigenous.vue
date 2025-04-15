@@ -1,9 +1,10 @@
 <script></script>
 <template>
-  <div>
-    <h2>Indigenous Exhibit</h2>
-    <img alt="Indigenous Vase" src="/fish.jpg" />
-  </div>
+   <div>
+   <header>Indigenous Exhibit</header>
+ <div class="page"> 
+  <img alt="Indigenous Vase" src="/fish.jpg" />
+  
   Presented by the Art Alliance for Contemporary Glass, Clearly Indigenous: Native Visions
   Reimagined in Glass explores how Indigenous artists are pushing past traditional boundaries by
   blending cultural stories and symbols with the modern medium of glass. This unique exhibition
@@ -11,5 +12,5 @@
   techniques, and also traces the history of how glass art found its place in Indigenous
   communities. Featuring more than 100 stunning pieces, the show showcases the creativity of
   contemporary Native American and Indigenous artists from across the Pacific Rim.
-  <div></div>
+  </div></div>
 </template>

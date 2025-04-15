@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="page">
     <header>Art Show Exhibit</header>
     <img alt="String Art " src="/strings.webp" />
     <div>
@@ -19,11 +19,3 @@
     </div>
   </div>
 </template>
-
-<style>
-header {
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 2;
-}
-</style>
