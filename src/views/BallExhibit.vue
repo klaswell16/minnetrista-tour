@@ -22,4 +22,9 @@ header {
   font-weight: bold;
   line-height: 2;
 }
+
+img {
+  max-width: 100%;
+  height: 30em;
+}
 </style>
