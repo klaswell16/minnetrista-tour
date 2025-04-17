@@ -7,7 +7,9 @@ console.log(store)
   <div>
     <header>What Age Group Are You?</header>
     <div class="page">
-      <div><button @click="store.easyMode()">Easy</button></div>
+      <div><button style="width: 70px; height: 50px" @click="store.easyMode()">Easy</button></div>
+      <div><button @click="store.mediumMode()">Medium</button></div>
+      <div><button @click="store.hardMode()">Hard</button></div>
     </div>
   </div>
 </template>
