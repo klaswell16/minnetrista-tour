@@ -2,44 +2,45 @@
     font-size: 40px;
     font-weight: bold;
     line-height: 2;
-    background-color: #d3494e;
-    color: white;
+    background-color: #652f6c;
+    color: #dbdad7;
   }
   .page {
-    background-color: #ebacaf;
+    background-color: #158ea9;
+    color: #dbdad7;
   }
   Button{
-    background-color: #d3394e;
+    background-color: #652f6c;
   }
   .BallEx{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }
   .Tour{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }  
   .Age{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }  
   .Home{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }  
   .Bob{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }
   .Exhibit{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }  
   .Art{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }
   .Indigenous{
-    color:white;
+    color:#dbdad7;
     text-decoration:none;
   }
