@@ -1,6 +1,7 @@
 <script setup>
 //Ages 16 - 21 info
 import { store } from '../store/store.js'
+
 console.log(store)
 </script>
 
@@ -22,7 +23,24 @@ console.log(store)
     </div>
     <div v-if="store.mode === 'medium'">medium mode baby</div>
     <div v-if="store.mode === 'hard'">Hard mode yo</div>
+    <div>
+      <router-link to="/bobross"><Button class="next-button" @click="">></Button></router-link>
+    </div>
   </div>
 </template>
 
-<style></style>
+<style>
+.next-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+}
+.next-button:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+</style>
