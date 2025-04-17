@@ -1,52 +1,53 @@
-  body{
-    background-color:#158ea9;
-  }
-  header {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 2;
-    background-color: #652f6c;
-    color: #dbdad7;
-  }
-  .page {
-    background-color: #158ea9;
-    color: #dbdad7;
-    word-wrap:break-word;
-  }
-  Button{
-    background-color: #652f6c;
-    width: 150px;
-    height: 50px;
-  }
-  .BallEx{
-    color:#dbdad7;
-    text-decoration:none;
-  }
-  .Tour{
-    color:#dbdad7;
-    text-decoration:none;
-  }  
-  .Age{
-    color:#dbdad7;
-    text-decoration:none;
-  }  
-  .Home{
-    color:#dbdad7;
-    text-decoration:none;
-  }  
-  .Bob{
-    color:#dbdad7;
-    text-decoration:none;
-  }
-  .Exhibit{
-    color:#dbdad7;
-    text-decoration:none;
-  }  
-  .Art{
-    color:#dbdad7;
-    text-decoration:none;
-  }
-  .Indigenous{
-    color:#dbdad7;
-    text-decoration:none;
-  }
+body {
+  background-color: #158ea9;
+}
+header {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 2;
+  background-color: #652f6c;
+  color: #dbdad7;
+  padding-left: 10px;
+}
+.page {
+  background-color: #158ea9;
+  color: #dbdad7;
+  word-wrap: break-word;
+}
+Button {
+  background-color: #652f6c;
+  width: 150px;
+  height: 50px;
+}
+.BallEx {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Tour {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Age {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Home {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Bob {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Exhibit {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Art {
+  color: #dbdad7;
+  text-decoration: none;
+}
+.Indigenous {
+  color: #dbdad7;
+  text-decoration: none;
+}

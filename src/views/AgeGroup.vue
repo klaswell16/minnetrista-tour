@@ -7,11 +7,23 @@ console.log(store)
   <div>
     <header>What Age Group Are You?</header>
     <div class="page">
-      <div><button style="width: 70px; height: 50px" @click="store.easyMode()">Easy</button></div>
-      <div><button @click="store.mediumMode()">Medium</button></div>
-      <div><button @click="store.hardMode()">Hard</button></div>
+      <div>
+        <Button class="mode-buttons" @click="store.easyMode()">Easy</Button>
+      </div>
+      <div>
+        <Button class="mode-buttons" @click="store.mediumMode()">Medium</Button>
+      </div>
+      <div>
+        <Button class="mode-buttons" @click="store.hardMode()">Hard</Button>
+      </div>
     </div>
   </div>
 </template>
 
-<style></style>
+<style>
+.mode-buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2rem;
+}
+</style>
