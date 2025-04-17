@@ -8,13 +8,19 @@ console.log(store)
     <header>What Age Group Are You?</header>
     <div class="page">
       <div>
-        <Button class="mode-buttons" @click="store.easyMode()">Easy</Button>
+        <router-link to="/ballex"
+          ><Button class="mode-buttons" @click="store.easyMode()">Easy</Button></router-link
+        >
       </div>
       <div>
-        <Button class="mode-buttons" @click="store.mediumMode()">Medium</Button>
+        <router-link to="/ballex">
+          <Button class="mode-buttons" @click="store.mediumMode()">Medium</Button></router-link
+        >
       </div>
       <div>
-        <Button class="mode-buttons" @click="store.hardMode()">Hard</Button>
+        <router-link to="/ballex">
+          <Button class="mode-buttons" @click="store.hardMode()">Hard</Button></router-link
+        >
       </div>
     </div>
   </div>
