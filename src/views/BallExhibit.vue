@@ -20,6 +20,8 @@ console.log(store)
       the school to Ball Teachers College in 1922. The school reached university status in 1965
       where it got the name we know today, Ball State University.
     </div>
+    <div v-if="store.mode === 'medium'">medium mode baby</div>
+    <div v-if="store.mode === 'hard'">Hard mode yo</div>
   </div>
 </template>
 
