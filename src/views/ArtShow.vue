@@ -5,7 +5,7 @@
 <template>
   <div class="page">
     <header>Art Show Exhibit</header>
-    <img alt="String Art " src="/strings.webp" />
+    <img alt="String Art " src="/strings.webp"/>
     <div>
         How many different colors do you see?
     </div>
