@@ -1,12 +1,15 @@
-<script></script>
+<script setup>
+import { store } from '../store/store'
+console.log(store)
+</script>
 
 <template>
   <div>
     <header>What Age Group Are You?</header>
-    <div class="page">8 and below</div>
+    <div class="page">
+      <div><button @click="store.easyMode()">Easy</button></div>
+    </div>
   </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
