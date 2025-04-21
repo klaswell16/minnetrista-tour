@@ -8,7 +8,7 @@
 
     <div class="page">
       <img alt="Bob Ross " src="/bobross.jpeg" />
-      <div class="page">
+      <div class="text-body">
         Bob Ross was a super chill painter with a giant poofy afro and the calmest voice ever. He
         had a TV show called The Joy of Painting, where he showed people how to paint cool nature
         scenes like snowy mountains, peaceful lakes, and his favorite—“happy little trees”! What

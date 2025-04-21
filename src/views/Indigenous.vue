@@ -4,7 +4,7 @@
 
   <div class="page">
     <img alt="Indigenous Vase" src="/fish.jpg" />
-    <div>
+    <div class="text-body">
       Presented by the Art Alliance for Contemporary Glass, Clearly Indigenous: Native Visions
       Reimagined in Glass explores how Indigenous artists are pushing past traditional boundaries by
       blending cultural stories and symbols with the modern medium of glass. This unique exhibition
@@ -18,7 +18,6 @@
     </div>
   </div>
 </template>
-
 
 <style>
 .next-button {
