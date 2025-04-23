@@ -68,6 +68,7 @@ console.log(store)
       </div>
       <div>
         <router-link to="/bobross"><Button class="next-button" @click="">></Button></router-link>
+        <router-link to="/age"><Button class="back-button" @click=""><</Button></router-link>
       </div>
     </div>
   </div>

@@ -16,6 +16,7 @@
       </div>
       <div>
         <router-link to="/exhibits"><Button class="next-button" @click="">></Button></router-link>
+        <router-link to="/artshow"><Button class="back-button" @click=""><</Button></router-link>
       </div>
     </div>
   </div>
