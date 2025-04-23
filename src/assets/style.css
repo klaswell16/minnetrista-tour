@@ -1,5 +1,9 @@
 @import 'primeicons/primeicons.css';
 
+.parent-container {
+  display: flex;
+  justify-content: center;
+}
 .next-button {
   position: fixed;
   bottom: 20px;
