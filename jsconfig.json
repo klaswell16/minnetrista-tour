@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/exhibits"]
     }
   },
   "exclude": ["node_modules", "dist"]

@@ -3,7 +3,6 @@
   <div id="app">
     <ButtonGroup>
       <nav>
-        <Button asChild v-slot="Home"> <router-link to="/" class="Home">Home</router-link></Button>
         <Button asChild v-slot="Exhibit">
           <router-link to="/exhibits" class="Exhibit"> Exhibits</router-link></Button
         >
