@@ -32,15 +32,10 @@
   justify-content: center;
   align-items: center;
 }
+.next-button:hover,
 .back-button:hover {
   transform: scale(1.1);
-  transition: all 0.3s ease;
-  background: #f0f0f0;
-}
-.next-button:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease;
-  background: #f0f0f0;
+  background: #2980b9;
 }
 .text-body {
   padding: 20px;
