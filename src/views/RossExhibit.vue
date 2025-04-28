@@ -1,7 +1,7 @@
 <script setup>
 import { store } from '../store/store.js'
 import { ref } from 'vue'
-
+const happyAccident = ref(false)
 const techniqueRevealed = ref(false)
 const paletteExpanded = ref(false)
 const toggleTechnique = () => {
