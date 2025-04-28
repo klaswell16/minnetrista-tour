@@ -6,19 +6,21 @@ import { store } from '../store/store.js'
   <div class="page">
     <div class="card">
       <header class="card-header">Art Show Exhibit</header>
-      <img alt="String Art " src="/strings.webp" />
       <div class="text-body">
-        <div>How many different colors do you see?</div>
-        <img alt="Square Art " src="/squareart.webp" />
-        <div>Can you see all the squares?</div>
-        <img alt="Dog Art " src="/dogs.webp" />
-        <div>What are the dogs doing?</div>
-      </div>
-      <div>
-        <router-link to="/indigenous"><Button class="next-button" @click="">></Button></router-link>
-        <router-link to="/bobross"><Button class="back-button" @click=""><</Button></router-link>
+        <div v-if="store.mode === 'easy'">
+          <img alt="String Art " src="/strings.webp" />
+          <div>How many different colors do you see?</div>
+          <img alt="Square Art " src="/squareart.webp" />
+          <div>Can you see all the squares?</div>
+          <img alt="Dog Art " src="/dogs.webp" />
+          <div>What are the dogs doing?</div>
+        </div>
       </div>
     </div>
+  </div>
+  <div>
+    <router-link to="/indigenous"><Button class="next-button" @click="">></Button></router-link>
+    <router-link to="/bobross"><Button class="back-button" @click=""><</Button></router-link>
   </div>
 </template>
 

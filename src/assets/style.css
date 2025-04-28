@@ -130,3 +130,28 @@ Button {
   color: #dbdad7;
   text-decoration: none;
 }
+.interactive-button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #ffd43b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  color: #27374d;
+}
+
+.interactive-button:hover {
+  background: #f0c808;
+  transform: scale(1.05);
+}
+
+.interactive-content {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border-left: 4px solid #2980b9;
+}
