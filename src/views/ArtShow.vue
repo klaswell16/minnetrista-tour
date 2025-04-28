@@ -1,5 +1,5 @@
-<script>
-//Ages 8 and under info
+<script setup>
+import { store } from '../store/store.js'
 </script>
 
 <template>

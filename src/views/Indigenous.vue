@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { store } from '../store/store.js'
 
 const hotspots = ref([
   {
