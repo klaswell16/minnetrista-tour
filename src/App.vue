@@ -7,9 +7,7 @@
           <Button asChild v-slot="Exhibit">
             <router-link to="/exhibits" class="Exhibit"> Exhibits</router-link></Button
           >
-          <Button asChild v-slot="Tour">
-            <router-link to="/schedule" class="Tour"> Your Tour Schedule</router-link></Button
-          >
+
           <Button asChild v-slot="Age">
             <router-link to="/age" class="Age">Complexity</router-link></Button
           >

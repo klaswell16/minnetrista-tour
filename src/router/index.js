@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import TourSchedule from '../views/TourSchedule.vue'
 import AgeGroup from '../views/AgeGroup.vue'
 import ShowExhibits from '../views/ShowExhibits.vue'
 import BallExhibit from '../views/BallExhibit.vue'
@@ -13,11 +12,6 @@ const routes = [
     path: '/exhibits',
     name: 'exhibits',
     component: ShowExhibits,
-  },
-  {
-    path: '/schedule',
-    name: 'schedule',
-    component: TourSchedule,
   },
   {
     path: '/age',

@@ -6,11 +6,8 @@ import Aura from '@primeuix/themes/aura'
 
 createApp(App).use(router).mount('#app')
 
-
 App.use(PrimeVue, {
-    // Default theme configuration
-    theme: {
-        preset: Aura
-
-    }
- });
+  theme: {
+    preset: Aura,
+  },
+})
