@@ -1,6 +1,6 @@
 # minnetrista-tour
 
-This template should help get you started developing with Vue 3 in Vite.
+To align with Minnetrista's desire to add a customizable and more tangible experience to their museum exhibits, our team was reached out to in order to deisgn the UI interface for a handheld device that will customize the museum experience with content geared toward certain age groups, or completely decided on by the user. 
 
 ## Recommended IDE Setup
 
